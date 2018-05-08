@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="18" failures="0" name="com.runner.RunnerTest" time="0.765" errors="2" skipped="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib"/>
+    <property name="java.vm.version" value="25.101-b13"/>
+    <property name="user.country.format" value="IN"/>
+    <property name="gopherProxySet" value="false"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="/Users/Shubham_MacbookPro/eclipse-workspace/BDDCucumberPOM"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=":"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value="unknown"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="/Users/Shubham_MacbookPro/eclipse-workspace/BDDCucumberPOM"/>
+    <property name="java.runtime.version" value="1.8.0_101-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/endorsed"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.io.tmpdir" value="/var/folders/jq/3hqzdz350h3gmqgn7y1tt6hm0000gn/T/"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="classworlds.conf" value="/Users/Shubham_MacbookPro/eclipse-workspace/.metadata/.plugins/org.eclipse.m2e.launching/launches/m2conf4457468413456327593.tmp"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/Shubham_MacbookPro/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.13.1"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="user.home" value="/Users/Shubham_MacbookPro"/>
+    <property name="user.timezone" value="Asia/Kolkata"/>
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="user.name" value="Shubham_MacbookPro"/>
+    <property name="java.class.path" value="/Users/Shubham_MacbookPro/.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_101"/>
+    <property name="java.ext.dirs" value="/Users/Shubham_MacbookPro/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="/Users/Shubham_MacbookPro/eclipse-workspace/BDDCucumberPOM/EMBEDDED"/>
+    <property name="file.separator" value="/"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="sun.cpu.isalist" value=""/>
+  </properties>
+  <testcase classname="Scenario: Error messgae should be displayed when incorrect e mail address is enetered while registering" name="Given I am on the Sign in page" time="0.006"/>
+  <testcase classname="Scenario: Error messgae should be displayed when incorrect e mail address is enetered while registering" name="When I enter incorrect email address and clicks on create an account" time="0"/>
+  <testcase classname="Scenario: Error messgae should be displayed when incorrect e mail address is enetered while registering" name="Then I should see an error message" time="0"/>
+  <testcase classname="Scenario: Error messgae should be displayed when incorrect e mail address is enetered while registering" name="Scenario: Error messgae should be displayed when incorrect e mail address is enetered while registering" time="0.233"/>
+  <testcase classname="Scenario: Working of MegaMenu" name="Given I am on the Home page" time="0"/>
+  <testcase classname="Scenario: Working of MegaMenu" name="When I hover on Dresses on MegaMenu" time="0"/>
+  <testcase classname="Scenario: Working of MegaMenu" name="And I click on Summer Dresses on sub menu" time="0"/>
+  <testcase classname="Scenario: Working of MegaMenu" name="Then I should see Summer Dresses page" time="0"/>
+  <testcase classname="Scenario: Working of MegaMenu" name="Scenario: Working of MegaMenu" time="0.231"/>
+  <testcase classname="Scenario: Arrangement of product grid on Summer Dresses page" name="Given I am on Summer Dresses page" time="0"/>
+  <testcase classname="Scenario: Arrangement of product grid on Summer Dresses page" name="When I click on Sort By Price" time="0"/>
+  <testcase classname="Scenario: Arrangement of product grid on Summer Dresses page" name="Then I should see the product grid is arranged properly" time="0"/>
+  <testcase classname="Scenario: Arrangement of product grid on Summer Dresses page" name="Scenario: Arrangement of product grid on Summer Dresses page" time="0.285"/>
+  <testcase classname="Scenario: I should be able to register with a valid email address" name="Given I am on the Sign in page" time="0"/>
+  <testcase classname="Scenario: I should be able to register with a valid email address" name="When I fill in valid Email address and click on create an account" time="0"/>
+  <testcase classname="Scenario: I should be able to register with a valid email address" name="And I fill in personal information on create Account page and click on Register" time="0.003">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.pages.CreateAnAccountFormPage.fillPersonalInformation(CreateAnAccountFormPage.java:65)
+	at stepDefinitions.StepDefinitions.I_fill_in_personal_information_on_create_Account_page_and_click_on_Register(StepDefinitions.java:99)
+	at ✽.And I fill in personal information on create Account page and click on Register(validEmailRegister.feature:9)
+</error>
+  </testcase>
+  <testcase classname="Scenario: I should be able to register with a valid email address" name="Scenario: I should be able to register with a valid email address" time="0.003">
+    <error type="java.lang.NullPointerException">java.lang.NullPointerException
+	at com.pages.CreateAnAccountFormPage.fillPersonalInformation(CreateAnAccountFormPage.java:65)
+	at stepDefinitions.StepDefinitions.I_fill_in_personal_information_on_create_Account_page_and_click_on_Register(StepDefinitions.java:99)
+	at ✽.And I fill in personal information on create Account page and click on Register(validEmailRegister.feature:9)
+</error>
+  </testcase>
+  <testcase classname="Scenario: I should be able to register with a valid email address" name="Then I should see My Account page" time="0.004">
+    <skipped/>
+  </testcase>
+</testsuite>

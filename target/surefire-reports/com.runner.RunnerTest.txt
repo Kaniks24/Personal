@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: com.runner.RunnerTest
+-------------------------------------------------------------------------------
+Tests run: 18, Failures: 0, Errors: 2, Skipped: 1, Time elapsed: 95.679 sec <<< FAILURE!
+And I fill in personal information on create Account page and click on Register(Scenario: I should be able to register with a valid email address)  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.pages.CreateAnAccountFormPage.fillPersonalInformation(CreateAnAccountFormPage.java:65)
+	at stepDefinitions.StepDefinitions.I_fill_in_personal_information_on_create_Account_page_and_click_on_Register(StepDefinitions.java:99)
+	at ✽.And I fill in personal information on create Account page and click on Register(validEmailRegister.feature:9)
+
+Scenario: I should be able to register with a valid email address  Time elapsed: 0.003 sec  <<< ERROR!
+java.lang.NullPointerException
+	at com.pages.CreateAnAccountFormPage.fillPersonalInformation(CreateAnAccountFormPage.java:65)
+	at stepDefinitions.StepDefinitions.I_fill_in_personal_information_on_create_Account_page_and_click_on_Register(StepDefinitions.java:99)
+	at ✽.And I fill in personal information on create Account page and click on Register(validEmailRegister.feature:9)
+

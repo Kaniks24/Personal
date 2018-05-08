@@ -1,0 +1,38 @@
+Feature: Register functionality with incorrect Email address
+  I want to verify the error messgae displayed when incorrect e mail address is enetered while registering
+
+  #Background : I am on the home page
+  Scenario: Error messgae should be displayed when incorrect e mail address is enetered while registering [90m# incorrectEmailRegister.feature:6[0m
+    [32mGiven [0m[32mI am on the Sign in page[0m                                                                        [90m# StepDefinitions.I_am_on_the_Sign_in_page()[0m
+    [32mWhen [0m[32mI enter incorrect email address and clicks on create an account[0m                                  [90m# StepDefinitions.I_enter_incorrect_email_address_and_clicks_on_create_an_account()[0m
+    [32mThen [0m[32mI should see an error message[0m                                                                    [90m# StepDefinitions.I_should_see_an_error_message()[0m
+Feature: Verify working of MegaMenu
+  I want to verify the working of MegaMenu (Dresses -> Summer dresses)
+
+  #Background : I am on the home page
+  Scenario: Working of MegaMenu               [90m# megaMenu.feature:6[0m
+    [32mGiven [0m[32mI am on the Home page[0m               [90m# StepDefinitions.I_am_on_the_Home_page()[0m
+    [32mWhen [0m[32mI hover on Dresses on MegaMenu[0m       [90m# StepDefinitions.I_hover_on_Dresses_on_MegaMenu()[0m
+    [32mAnd [0m[32mI click on Summer Dresses on sub menu[0m [90m# StepDefinitions.I_click_on_Summer_Dresses_on_sub_menu()[0m
+    [32mThen [0m[32mI should see Summer Dresses page[0m     [90m# StepDefinitions.I_should_see_Summer_Dresses_page()[0m
+Feature: Validation of product grid arrangement based on Sort By price.
+  I want to verify the arrangement of product grid after clicking on Sort By: Price on the Summer Dresses page
+
+  Scenario: Arrangement of product grid on Summer Dresses page [90m# productGrid.feature:6[0m
+    [32mGiven [0m[32mI am on Summer Dresses page[0m                          [90m# StepDefinitions.I_am_on_Summer_Dresses_page()[0m
+    [32mWhen [0m[32mI click on Sort By Price[0m                              [90m# StepDefinitions.I_click_on_Sort_By_Price()[0m
+    [32mThen [0m[32mI should see the product grid is arranged properly[0m    [90m# StepDefinitions.I_should_see_the_product_grid_is_arranged_properly()[0m
+Feature: Register functionality with a valid email address
+  As a user, I want to register with a valid email address
+
+  #Background : I am on the home page and navigate to the sign in page
+  Scenario: I should be able to register with a valid email address                 [90m# validEmailRegister.feature:6[0m
+    [32mGiven [0m[32mI am on the Sign in page[0m                                                  [90m# StepDefinitions.I_am_on_the_Sign_in_page()[0m
+    [32mWhen [0m[32mI fill in valid Email address and click on create an account[0m               [90m# StepDefinitions.I_fill_in_valid_Email_address_and_click_on_create_an_account()[0m
+    [31mAnd [0m[31mI fill in personal information on create Account page and click on Register[0m [90m# StepDefinitions.I_fill_in_personal_information_on_create_Account_page_and_click_on_Register()[0m
+      [31mjava.lang.NullPointerException
+      	at com.pages.CreateAnAccountFormPage.fillPersonalInformation(CreateAnAccountFormPage.java:65)
+      	at stepDefinitions.StepDefinitions.I_fill_in_personal_information_on_create_Account_page_and_click_on_Register(StepDefinitions.java:99)
+      	at ✽.And I fill in personal information on create Account page and click on Register(validEmailRegister.feature:9)
+      [0m
+    [36mThen [0m[36mI should see My Account page[0m                                               [90m# StepDefinitions.user_should_see_My_Account_page()[0m
